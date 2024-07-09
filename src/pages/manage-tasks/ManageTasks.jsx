@@ -21,7 +21,7 @@ const ManageTasks = () => {
       return data;
     },
   });
-  console.log(tasks);
+ 
   if (isLoading) return <MySpinner />;
 
   if (tasks?.length === 0) {

@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Dashboard from "../layout/Dashboard";
 import Root from "../layout/Root";
 import AddTask from "../pages/addTask/AddTask";
+import EditTask from "../pages/edit-task/EditTask";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Home from "../pages/home/Home";
 import Login from "../pages/login/Login";
@@ -14,7 +15,6 @@ import TaskDetails from "../pages/task-details/TaskDetails";
 import UpdateProfile from "../pages/updateProfile/UpdateProfile";
 import DashboardHome from "./../components/dashboardHome/DashboardHome";
 import PrivateRoute from "./privet/PrivateRoute";
-import EditTask from "../pages/edit-task/EditTask";
 
 const router = createBrowserRouter([
   {
@@ -65,9 +65,9 @@ const router = createBrowserRouter([
   {
     path: "/dashboard",
     element: (
-      // <PrivateRoute>
-      <Dashboard />
-      // </PrivateRoute>
+      <PrivateRoute>
+        <Dashboard />
+      </PrivateRoute>
     ),
     errorElement: <ErrorPage />,
     children: [
