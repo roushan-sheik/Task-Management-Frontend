@@ -3,11 +3,11 @@ import { MdOutlineCancelPresentation } from "react-icons/md";
 import { Link } from "react-router-dom";
 import useUserContext from "../../../hooks/useUserContext";
 import Btn from "../../button/Btn";
+import LoginModal from "../../modal/LoginModal";
 import DesktopNav from "../../nav/desktop/DesktopNav";
 import Badge from "../../profile/badge/Badge";
 import UserInfo from "../../profile/userInfo/UserInfo";
-import LoginModal from "../modal/LoginModal";
-z;
+
 const Header = () => {
   const [showForm, setShowForm] = React.useState(false);
   const [showInfo, setShowInfo] = React.useState(false);

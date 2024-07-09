@@ -10,10 +10,10 @@ import React, { Fragment } from "react";
 import { IoMdEye, IoMdEyeOff } from "react-icons/io";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
-import useUserContext from "../../../hooks/useUserContext";
-import Btn from "../../button/Btn";
 import LogInButton from "../../button/LogInButton";
+import useUserContext from "../../hooks/useUserContext";
 import Inp from "../../input/Inp";
+import Btn from "../button/Btn";
 
 const LoginModal = ({ closeModal, isOpen, modalHandler }) => {
   const [showPass, setShowPass] = React.useState(false);
