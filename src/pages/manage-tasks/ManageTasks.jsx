@@ -15,7 +15,7 @@ const ManageTasks = () => {
     isLoading,
     refetch,
   } = useQuery({
-    queryKey: ["my-products"],
+    queryKey: ["manage_task"],
     queryFn: async () => {
       const { data } = await axiosCommon.get(`/tasks`);
       return data;
@@ -49,7 +49,10 @@ const ManageTasks = () => {
     <div>
       <div className="flex items-center my-4 gap-1">
         <h1 className="lg:text-4xl font-semibold text-2xl">Manage Tasks</h1>
-        <span className="text_pri">{tasks.length}</span>
+        <div className=" flex justify-center items-center text-white text-2xl bg-blue-500 h-12 w-12 rounded-full">
+          {tasks.length}
+          <span></span>
+        </div>
         <ToastContainer />
       </div>
       <div className="flex flex-col gap-2 ">
@@ -78,7 +81,7 @@ const ManageTasks = () => {
                         title: task.title,
                         desc: task.description,
                         assignedTo: task.assignedTo,
-                        status: task.status
+                        status: task.status,
                       }}
                     >
                       <div className="flex items-center gap-1 cursor-pointer text-blue-500">
@@ -98,8 +101,18 @@ const ManageTasks = () => {
                 </div>
                 {/* right content box  */}
                 <div className="basic[20%]">
-                  <Link to={"/dashboard/tasks/details"}>
-                    <Btn> View Details </Btn>
+                  <Link
+                    to={"/dashboard/tasks/details"}
+                    state={{
+                      id: task._id,
+                      image: task.image,
+                      title: task.title,
+                      desc: task.description,
+                      assignedTo: task.assignedTo,
+                      status: task.status,
+                    }}
+                  >
+                    <Btn>Give Task</Btn>
                   </Link>
                 </div>
               </div>
