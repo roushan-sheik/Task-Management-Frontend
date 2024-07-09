@@ -1,4 +1,3 @@
- 
 import { TbFidgetSpinner } from "react-icons/tb";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
@@ -36,10 +35,10 @@ const Register = () => {
       const userObj = {
         name,
         email,
-        image: image_url,
-        Role: "user",
-        status: "",
+        photo: image_url,
+        role: "User",
       };
+
       await axiosCommon.post("/users/post", userObj);
       // 3. Save username and photo in firebase
       await updateUserProfile(name, image_url);

@@ -4,7 +4,7 @@ import { toast, ToastContainer } from "react-toastify";
 import useAxiosCommon from "../../hooks/useAxiosCommon";
 import useUserContext from "../../hooks/useUserContext";
 
-function LogInButton({ userEmail }) {
+function LogInButton() {
   const location = useLocation();
   const navigate = useNavigate();
   const { updateUserProfile } = useUserContext();
@@ -21,8 +21,7 @@ function LogInButton({ userEmail }) {
         name: result.user.displayName,
         email: result.user.email,
         photo: result.user.photoURL,
-        Role: "user",
-        status: "",
+        role: "User",
       };
       await axiosCommon.post("/users/post", userObj);
       // update profile
@@ -34,7 +33,7 @@ function LogInButton({ userEmail }) {
         navigate(location?.state || "/");
       }, 3000);
     } catch (error) {
-      toast.error("Something went wrong try again.. ", {
+      toast.error(error.message, {
         position: "top-center",
       });
     }
