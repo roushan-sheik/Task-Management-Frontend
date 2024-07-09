@@ -17,7 +17,7 @@ const DesktopNav = () => {
         Home
       </NavLink>
       <NavLink
-        to="/products"
+        to="/tasks"
         className={({ isActive, isPending, isTransitioning }) =>
           [
             isPending ? "pending" : "",
@@ -26,10 +26,10 @@ const DesktopNav = () => {
           ].join(" ")
         }
       >
-        Products
+        Tasks
       </NavLink>
       <NavLink
-        to="/news"
+        to="/add-task"
         className={({ isActive, isPending, isTransitioning }) =>
           [
             isPending ? "pending" : "",
@@ -38,7 +38,7 @@ const DesktopNav = () => {
           ].join(" ")
         }
       >
-        News
+        Add Task
       </NavLink>
     </div>
   );

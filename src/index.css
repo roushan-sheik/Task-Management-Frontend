@@ -20,12 +20,12 @@ h1 h2 h3 h4 {
 }
 .bg_pri {
   /* Your custom styles here */
-  background-color: #00a6e5;
+  background-color: #00e55f;
   /* background-color: #00a4e5ce; */
 }
 .bg_sec {
   /* Your custom styles here */
-  background-color: #fd6b22;
+  background-color: #269c57;
 }
 .bg_third {
   /* Your custom styles here */
@@ -33,10 +33,10 @@ h1 h2 h3 h4 {
 }
 /* text color  */
 .text_brand_pri {
-  color: #00a6e5;
+  color: #00e55f;
 }
 .text_brand_sec {
-  color: #fd6b22;
+  color: #269c57;
 }
 .text_pri {
   color: rgba(19, 19, 19);

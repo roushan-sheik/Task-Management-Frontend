@@ -1,8 +1,8 @@
 # React Project
 
-## Book House App
+## Task Management
 
-<img src="./bit craft.png" />
+<img src=" " />
 ### installation
 
 ```
@@ -17,20 +17,13 @@ npm run dev
 
 ### Deployed Firebase
 
-#### Live link: https://bit-craft-e7008.web.app/
+#### Live link:
 
-#### Client repo: https://github.com/programming-hero-web-course1/b9a12-client-side-roushan-sheik
+#### Client repo:
 
-#### Server repo: https://github.com/programming-hero-web-course1/b9a12-server-side-roushan-sheik
+#### Server repo:
 
-<p>It is a platform where users can discover and share their tech products. Tech
-Products means Web Apps, AI tools, Softwares, Games, Mobile Apps etc. This
-platform is similar to the https://producthunt.com website. Users can submit new
-products, upvote or downvote existing products & post reviews for products. The
-platform includes user authentication, roles for normal users, moderators, and admins,
-as well as a product moderation system. Additionally, a payment system is integrated,
-allowing users to unlock premium features or obtain extra facilities through paid
-subscriptions.
+<p> Task management
 </p>
 
 ### Used tools & Technologies
