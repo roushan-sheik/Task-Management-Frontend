@@ -1,0 +1,122 @@
+[
+  {
+    "author_name": "John Doe",
+    "author_email": "johndoe@gmail.com",
+    "profile_image": "https://i.ibb.co/3kvPkn3/0-x-Fuo-UNWch-LZ8bq-S.jpg",
+    "title": "New AI Breakthrough in Machine Learning",
+    "content": "Researchers at MIT have developed a new AI model that significantly improves machine learning accuracy. This breakthrough could have major implications for technology and industry.",
+    "image": "https://i.ibb.co/Fzkqy7r/Nitro-Pro-Icon.png",
+    "tags": ["AI", "Machine Learning", "Technology"],
+    "createdAt": "6/10/2024",
+    "vote": {
+      "users": [],
+      "upVote": 0,
+      "downVote": 0
+    }
+  },
+  {
+    "author_name": "Jane Smith",
+    "author_email": "janesmith@gmail.com",
+    "profile_image": "https://i.ibb.co/C2Y3FBX/download.jpg",
+    "title": "Global Economy Shows Signs of Recovery",
+    "content": "The global economy is showing signs of recovery as markets rebound and unemployment rates decrease. Economists are optimistic about the future.",
+    "image": "https://i.ibb.co/C2Y3FBX/download.jpg",
+    "tags": ["Economy", "Finance", "Markets"],
+    "createdAt": "6/10/2024",
+    "vote": {
+      "users": [],
+      "upVote": 0,
+      "downVote": 0
+    }
+  },
+  {
+    "author_name": "Michael Brown",
+    "author_email": "michaelbrown@gmail.com",
+    "profile_image": "https://i.ibb.co/dmh6pN0/G4-HZe-Vrjkb-MSt-WVEDIFu-Pll-OWYW.jpg",
+    "title": "New Species of Dinosaur Discovered",
+    "content": "Paleontologists have discovered a new species of dinosaur in Argentina. The discovery sheds new light on the diversity of dinosaur species during the Cretaceous period.",
+    "image": "https://i.ibb.co/vV62L2J/images-1.png",
+    "tags": ["Science", "Paleontology", "Dinosaurs"],
+    "createdAt": "6/10/2024",
+    "vote": {
+      "users": [],
+      "upVote": 0,
+      "downVote": 0
+    }
+  },
+  {
+    "author_name": "Lisa Johnson",
+    "author_email": "lisajohnson@gmail.com",
+    "profile_image": "https://i.ibb.co/dKfZRWJ/Chat-GPT-logo-PNG-medium-size-white-green-background.png",
+    "title": "Tech Giants Face New Regulations",
+    "content": "Governments around the world are introducing new regulations for tech giants to address privacy concerns and market dominance. The regulations could reshape the tech industry.",
+    "image": "https://i.ibb.co/dKfZRWJ/Chat-GPT-logo-PNG-medium-size-white-green-background.png",
+    "tags": ["Technology", "Regulation", "Privacy"],
+    "createdAt": "6/10/2024",
+    "vote": {
+      "users": ["john@example.com"],
+      "upVote": 1,
+      "downVote": 0
+    }
+  },
+  {
+    "author_name": "David Williams",
+    "author_email": "davidwilliams@gmail.com",
+    "profile_image": "https://i.ibb.co/ph3kp91/images-3.png",
+    "title": "Climate Change Impact on Marine Life",
+    "content": "A new study reveals the devastating impact of climate change on marine life. Rising temperatures and ocean acidification are threatening species and ecosystems.",
+    "image": "https://i.ibb.co/ph3kp91/images-3.png",
+    "tags": ["Environment", "Climate Change", "Marine Biology"],
+    "createdAt": "6/10/2024",
+    "vote": {
+      "users": [],
+      "upVote": 0,
+      "downVote": 0
+    }
+  },
+  {
+    "author_name": "Emily Davis",
+    "author_email": "emilydavis@gmail.com",
+    "profile_image": "https://i.ibb.co/W6M8hyP/images.png",
+    "title": "Advances in Renewable Energy Technology",
+    "content": "Scientists have made significant advances in renewable energy technology, making solar and wind power more efficient and cost-effective.",
+    "image": "https://i.ibb.co/W6M8hyP/images.png",
+    "tags": ["Energy", "Renewable Energy", "Technology"],
+    "createdAt": "6/10/2024",
+    "vote": {
+      "users": ["jane@example.com"],
+      "upVote": 1,
+      "downVote": 0
+    }
+  },
+  {
+    "author_name": "Chris Martin",
+    "author_email": "chrismartin@gmail.com",
+    "profile_image": "https://i.ibb.co/sb43K3F/beautiful-girls-images-wallpapers-6.jpg",
+    "title": "Breakthrough in Cancer Research",
+    "content": "Researchers have made a breakthrough in cancer research, discovering a new treatment that targets cancer cells more effectively and with fewer side effects.",
+    "image": "https://i.ibb.co/sb43K3F/beautiful-girls-images-wallpapers-6.jpg",
+    "tags": ["Health", "Medicine", "Cancer Research"],
+    "createdAt": "6/10/2024",
+    "vote": {
+      "users": [],
+      "upVote": 0,
+      "downVote": 0
+    }
+  },
+  {
+    "author_name": "Sarah Lee",
+    "author_email": "sarahlee@gmail.com",
+    "profile_image": "https://i.ibb.co/dmh6pN0/G4-HZe-Vrjkb-MSt-WVEDIFu-Pll-OWYW.jpg",
+    "title": "New Trends in Urban Development",
+    "content": "Urban planners are embracing new trends in sustainable development, including green buildings and smart cities, to create more livable and eco-friendly urban environments.",
+    "image": "https://i.ibb.co/vV62L2J/images-1.png",
+    "tags": ["Urban Development", "Sustainability", "Smart Cities"],
+    "createdAt": "6/10/2024",
+    "vote": {
+      "users": [],
+      "upVote": 0,
+      "downVote": 0
+    }
+  }
+]

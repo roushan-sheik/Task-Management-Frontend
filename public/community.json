@@ -1,0 +1,122 @@
+[
+  {
+    "organizer_name": "Alice Green",
+    "organizer_email": "alicegreen@gmail.com",
+    "profile_image": "https://i.ibb.co/3kvPkn3/0-x-Fuo-UNWch-LZ8bq-S.jpg",
+    "title": "Community Garden Project",
+    "description": "Join us in creating a community garden where neighbors can grow their own vegetables and flowers. This project aims to promote sustainable living and strengthen community bonds.",
+    "image": "https://i.ibb.co/Fzkqy7r/Nitro-Pro-Icon.png",
+    "tags": ["Community", "Sustainability", "Gardening"],
+    "createdAt": "6/10/2024",
+    "vote": {
+      "users": [],
+      "upVote": 0,
+      "downVote": 0
+    }
+  },
+  {
+    "organizer_name": "Bob Smith",
+    "organizer_email": "bobsmith@gmail.com",
+    "profile_image": "https://i.ibb.co/C2Y3FBX/download.jpg",
+    "title": "Local Food Drive",
+    "description": "We're organizing a food drive to support families in need. Please bring non-perishable food items to the community center. Every donation makes a difference!",
+    "image": "https://i.ibb.co/C2Y3FBX/download.jpg",
+    "tags": ["Community", "Charity", "Food Drive"],
+    "createdAt": "6/10/2024",
+    "vote": {
+      "users": ["john@example.com"],
+      "upVote": 1,
+      "downVote": 0
+    }
+  },
+  {
+    "organizer_name": "Cathy Johnson",
+    "organizer_email": "cathyjohnson@gmail.com",
+    "profile_image": "https://i.ibb.co/dmh6pN0/G4-HZe-Vrjkb-MSt-WVEDIFu-Pll-OWYW.jpg",
+    "title": "Neighborhood Clean-Up Day",
+    "description": "Join us for a neighborhood clean-up day to keep our community beautiful and litter-free. We'll provide gloves, bags, and refreshments.",
+    "image": "https://i.ibb.co/vV62L2J/images-1.png",
+    "tags": ["Community", "Environment", "Clean-Up"],
+    "createdAt": "6/10/2024",
+    "vote": {
+      "users": [],
+      "upVote": 0,
+      "downVote": 0
+    }
+  },
+  {
+    "organizer_name": "David Lee",
+    "organizer_email": "davidlee@gmail.com",
+    "profile_image": "https://i.ibb.co/dKfZRWJ/Chat-GPT-logo-PNG-medium-size-white-green-background.png",
+    "title": "Community Art Fair",
+    "description": "Our annual Community Art Fair is back! Come and enjoy a day of art, music, and food. Local artists will display their work, and there will be activities for all ages.",
+    "image": "https://i.ibb.co/dKfZRWJ/Chat-GPT-logo-PNG-medium-size-white-green-background.png",
+    "tags": ["Community", "Art", "Festival"],
+    "createdAt": "6/10/2024",
+    "vote": {
+      "users": ["jane@example.com"],
+      "upVote": 1,
+      "downVote": 0
+    }
+  },
+  {
+    "organizer_name": "Emily Brown",
+    "organizer_email": "emilybrown@gmail.com",
+    "profile_image": "https://i.ibb.co/ph3kp91/images-3.png",
+    "title": "Youth Sports League",
+    "description": "Sign up your kids for our Youth Sports League. We offer soccer, basketball, and baseball for ages 5-15. It's a great way for kids to stay active and make new friends.",
+    "image": "https://i.ibb.co/ph3kp91/images-3.png",
+    "tags": ["Community", "Sports", "Youth"],
+    "createdAt": "6/10/2024",
+    "vote": {
+      "users": [],
+      "upVote": 0,
+      "downVote": 0
+    }
+  },
+  {
+    "organizer_name": "Frank Miller",
+    "organizer_email": "frankmiller@gmail.com",
+    "profile_image": "https://i.ibb.co/W6M8hyP/images.png",
+    "title": "Senior Citizen Social",
+    "description": "We're hosting a social event for senior citizens. Enjoy an afternoon of games, refreshments, and conversation. It's a great opportunity to connect with others in the community.",
+    "image": "https://i.ibb.co/W6M8hyP/images.png",
+    "tags": ["Community", "Senior Citizens", "Social Event"],
+    "createdAt": "6/10/2024",
+    "vote": {
+      "users": [],
+      "upVote": 0,
+      "downVote": 0
+    }
+  },
+  {
+    "organizer_name": "Grace Lee",
+    "organizer_email": "gracelee@gmail.com",
+    "profile_image": "https://i.ibb.co/sb43K3F/beautiful-girls-images-wallpapers-6.jpg",
+    "title": "Local Business Expo",
+    "description": "Support local businesses at our Community Business Expo. Discover unique products and services, and enjoy special deals and giveaways.",
+    "image": "https://i.ibb.co/sb43K3F/beautiful-girls-images-wallpapers-6.jpg",
+    "tags": ["Community", "Business", "Expo"],
+    "createdAt": "6/10/2024",
+    "vote": {
+      "users": [],
+      "upVote": 0,
+      "downVote": 0
+    }
+  },
+  {
+    "organizer_name": "Henry Davis",
+    "organizer_email": "henrydavis@gmail.com",
+    "profile_image": "https://i.ibb.co/vV62L2J/images-1.png",
+    "title": "Community Yoga Classes",
+    "description": "Join us for weekly community yoga classes at the park. These sessions are open to all skill levels and are a great way to stay fit and meet new people.",
+    "image": "https://i.ibb.co/vV62L2J/images-1.png",
+    "tags": ["Community", "Health", "Yoga"],
+    "createdAt": "6/10/2024",
+    "vote": {
+      "users": [],
+      "upVote": 0,
+      "downVote": 0
+    }
+  }
+]

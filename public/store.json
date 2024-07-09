@@ -1,0 +1,111 @@
+[
+  {
+    "user_name": "Tasmiya Jaman",
+    "user_email": "tasmiyajaman@gmail.com",
+    "profile_image": "https://i.ibb.co/3kvPkn3/0-x-Fuo-UNWch-LZ8bq-S.jpg",
+    "name": "Nitro Pro",
+    "title": "Nitro Software products include a PDF editor, a browser-based application for electronic signatures, and PDF productivity tools",
+    "image": "https://i.ibb.co/Fzkqy7r/Nitro-Pro-Icon.png",
+    "tags": ["Software and Tools", "Software", "Web Applications"],
+    "description": "Nitro Software products include a PDF editor, a browser-based application for electronic signatures, and PDF productivity tools. Subscription services include cloud-based user management, deployment, and analytics tools. Nitro also manages several free document conversion sites.\\n\\nNitro Software's desktop products are available on Windows and Mac. Nitro Cloud is also available, operating in web browsers on most machines. Nitro PDF Pro is proprietary trialware, while Nitro Reader is freeware for both personal and professional use.",
+    "createdAt": "6/3/2024",
+    "vote": {
+      "users": [],
+      "upVote": 0,
+      "downVote": 0
+    }
+  },
+  {
+    "user_name": "Tasmiya Jaman",
+    "user_email": "tasmiyajaman@gmail.com",
+    "profile_image": "https://i.ibb.co/3kvPkn3/0-x-Fuo-UNWch-LZ8bq-S.jpg",
+    "name": "Joplin (software) in 2024",
+    "title": "Joplin is a free and open-source desktop and mobile note-taking and to-do list application",
+    "image": "https://i.ibb.co/C2Y3FBX/download.jpg",
+    "tags": ["Software and Tools", "Software", "Desktop Appliction"],
+    "description": "Joplin is named after the ragtime composer and pianist, Scott Joplin. Laurent Cozic started work on Joplin in 2016, and the first Android version was released on 28 July 2017. The first public desktop application release was version 0.10.19, on 20 November 2017. A Web Clipper for Chrome was introduced in December 2017 and the Firefox extension was released in May 2018. A new Joplin Cloud service was introduced in 2021, along with an on-premises Joplin Server application. Both products can be used to sync notes, to-dos, notebooks, and note data across devices, as well as share notes or notebooks with other Joplin users, or even publish content to the web.",
+    "createdAt": "6/3/2024",
+    "vote": {
+      "users": [],
+      "upVote": 0,
+      "downVote": 0
+    }
+  },
+  {
+    "user_name": "Md Roushan Sheik",
+    "user_email": "roushansheik@gmail.com",
+    "profile_image": "https://i.ibb.co/dmh6pN0/G4-HZe-Vrjkb-MSt-WVEDIFu-Pll-OWYW.jpg",
+    "name": "Product Hunt",
+    "title": "Product Hunt: Discover, Share, and Engage with the Latest Tech Innovations and Trends in a Vibrant Community-Driven Platform",
+    "image": "https://i.ibb.co/vV62L2J/images-1.png",
+    "tags": [
+      "Software and Tools",
+      "Mobile Apps",
+      "Software",
+      "Web Applications",
+      "Ai"
+    ],
+    "description": "Product Hunt is a platform designed to help users discover and share the latest and most innovative tech products. Whether you're looking for the newest web applications, AI tools, software solutions, games, or mobile apps, Product Hunt has it all. Users can submit products, vote on their favorites, and leave reviews to help others find the best tools and apps. The community-driven aspect ensures that the most useful and innovative products rise to the top, making it easier for users to find what they need. Product Hunt is an essential resource for tech enthusiasts, developers, and anyone interested in staying up-to-date with the latest trends in technology.",
+    "createdAt": "6/3/2024",
+    "vote": {
+      "users": [],
+      "upVote": 0,
+      "downVote": 0
+    }
+  },
+  {
+    "user_name": "Md Roushan Sheik",
+    "user_email": "roushansheik@gmail.com",
+    "profile_image": "https://i.ibb.co/dmh6pN0/G4-HZe-Vrjkb-MSt-WVEDIFu-Pll-OWYW.jpg",
+    "name": "ChatGPT",
+    "title": "ChatGPT: Experience Human-like Text Generation and Conversational AI with Advanced Language Understanding and Versatile Applications",
+    "image": "https://i.ibb.co/dKfZRWJ/Chat-GPT-logo-PNG-medium-size-white-green-background.png",
+    "tags": ["Software and Tools", "Web Applications", "Ai"],
+    "description": "ChatGPT is an advanced AI language model developed by OpenAI that can generate human-like text based on user prompts. Leveraging the power of deep learning, ChatGPT understands and responds to natural language inputs with remarkable accuracy. It's capable of engaging in meaningful conversations, providing detailed responses, and even performing specific tasks like writing essays, generating code, or creating content. Whether you need a virtual assistant to handle customer service inquiries, a tool to help with creative writing, or a chatbot for your website, ChatGPT offers versatile applications across various industries. Its ability to understand context and deliver coherent, relevant responses makes it a powerful tool for enhancing productivity and user engagement.",
+    "createdAt": "6/3/2024",
+    "vote": {
+      "users": ["arifa@gamil.com", "tasmiya@gamil.com"],
+      "upVote": 2,
+      "downVote": 0
+    }
+  },
+  {
+    "user_name": "Mim Khatun",
+    "user_email": "mimkhatun2024@gmail.com",
+    "profile_image": "https://i.ibb.co/sb43K3F/beautiful-girls-images-wallpapers-6.jpg",
+    "name": "Slack",
+    "title": "Slack: Streamline Team Communication and Collaboration with a Powerful Messaging App That Integrates Conversations, Files, and Tools",
+    "image": "https://i.ibb.co/ph3kp91/images-3.png",
+    "tags": ["Mobile Apps", "Software", "Web Applications"],
+    "description": "Slack is a powerful messaging app designed for teams to streamline communication and collaboration. It consolidates all your conversations, files, and tools into one convenient place, making it easier to stay connected and organized. With features like channels, direct messages, and integrations with other apps, Slack helps reduce email clutter and enhances productivity. Whether you're working on a project, discussing ideas, or sharing updates, Slack's intuitive interface and robust functionality make it an essential tool for modern workplaces.",
+    "createdAt": "6/3/2024",
+    "vote": {
+      "users": [],
+      "upVote": 0,
+      "downVote": 0
+    }
+  },
+  {
+    "user_name": "Mim Khatun",
+    "user_email": "mimkhatun2024@gmail.com",
+    "profile_image": "https://i.ibb.co/sb43K3F/beautiful-girls-images-wallpapers-6.jpg",
+    "name": "Notion",
+    "title": "Notion: The Ultimate All-in-One Workspace for Notes, Tasks, Wikis, and Databases to Enhance Productivity and Organization",
+    "image": "https://i.ibb.co/W6M8hyP/images.png",
+    "tags": [
+      "Software and Tools",
+      "Mobile Apps",
+      "Software",
+      "Web Applications",
+      "Ai"
+    ],
+    "description": "Notion is a versatile all-in-one workspace designed to help you organize your notes, manage tasks, build wikis, and create databases seamlessly. It offers a highly customizable interface that allows users to tailor their workspace to their specific needs, making it ideal for both personal and professional use. Notion's powerful features include collaborative editing, a wide range of templates, and integration with various apps, which makes it easy to keep everything in one place. Whether you're planning a project, writing a report, or tracking your goals, Notion provides the tools to enhance your productivity and creativity.",
+    "createdAt": "6/3/2024",
+    "vote": {
+      "users": [],
+      "upVote": 0,
+      "downVote": 0
+    }
+  }
+]
+ 

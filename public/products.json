@@ -1,0 +1,59 @@
+[
+
+ 
+ 
+ 
+ 
+  {
+    "_id": "665d3799c9686063fee4b9a6",
+    "user_name": "Tonni Khatun",
+    "user_email": "tonnikhatun@gmail.com",
+    "profile_image": "https://i.ibb.co/Rbk0DSD/afab81d8a1081d7ed4fedc453eedef1c.jpg",
+    "name": "",
+    "title": "",
+    "image": "https://i.ibb.co/G5N2pyt/images.png",
+    "category": "Software and Tools",
+    "description": "",
+    "createdAt": "6/3/2024"
+  },
+  {
+    "_id": "665d3a6cc9686063fee4b9a7",
+    "user_name": "Tasmiya Jaman",
+    "user_email": "tasmiyajaman@gmail.com",
+    "profile_image": "https://i.ibb.co/3kvPkn3/0-x-Fuo-UNWch-LZ8bq-S.jpg",
+    "name": "Figma",
+    "title": "Figma: Revolutionize Design Collaboration with a Cloud-Based Tool That Allows Real-Time Interface Creation and Teamwork",
+    "image": "https://i.ibb.co/YtSqZcL/a558b426cb8973523f37bbed94cf0f09.jpg",
+    "category": "Software and Tools",
+    "description": "Figma is a cutting-edge cloud-based design tool that revolutionizes the way designers create interfaces and collaborate. It allows multiple users to work on the same project simultaneously, making real-time collaboration seamless and efficient. Figma's powerful features include vector tools, prototyping, and version control, which help streamline the design process from conception to completion. Whether you're designing websites, mobile apps, or user interfaces, Figma's intuitive and versatile platform empowers teams to bring their creative visions to life effortlessly.",
+    "createdAt": "6/3/2024"
+  },
+  {
+    "_id": "665d3b4cc9686063fee4b9a8",
+    "user_name": "Tasmiya Jaman",
+    "user_email": "tasmiyajaman@gmail.com",
+    "profile_image": "https://i.ibb.co/3kvPkn3/0-x-Fuo-UNWch-LZ8bq-S.jpg",
+    "name": "Among Us",
+    "title": "Among Us: Engage in Thrilling Multiplayer Mystery Gameplay Where Crewmates and Impostors Battle in a Suspenseful Space Adventure",
+    "image": "https://i.ibb.co/c247fnL/among-us1873.jpg",
+    "category": "Mobile Applications",
+    "description": "Among Us is an engaging multiplayer game that challenges players to work together to complete tasks on a spaceship while identifying and avoiding impostors among the crew. The impostors' goal is to eliminate the crew members without getting caught, creating a thrilling environment of deception and strategy. With its simple yet captivating gameplay, Among Us has become a global phenomenon, fostering teamwork, communication, and a lot of fun. Whether you're playing with friends or strangers online, every game is a unique and suspenseful experience that keeps players coming back for more.",
+    "createdAt": "6/3/2024"
+  },
+  {
+    "id": "7",
+    "name": "Zoom",
+    "title": "Zoom: Experience Seamless Virtual Meetings with a Comprehensive Video Conferencing Tool for Connecting with Others Anytime, Anywhere",
+    "image": "https://img.freepik.com/premium-vector/zoom-meeting-logo_628407-1899.jpg",
+    "tags": "software",
+    "description": "Zoom is a leading video conferencing tool that enables users to connect and communicate virtually from anywhere in the world. With high-quality video and audio, screen sharing, and recording capabilities, Zoom is perfect for business meetings, webinars, online classes, and social gatherings. Its user-friendly interface and robust features make it easy to host and join meetings, fostering seamless collaboration and interaction. Whether you're working remotely, catching up with friends, or hosting an event, Zoom provides a reliable and versatile platform to stay connected."
+  },
+  {
+    "id": "8",
+    "name": "VS Code",
+    "title": "VS Code: Enhance Your Coding Experience with a Versatile Source-Code Editor Packed with Powerful Features and Extensions",
+    "image": "https://logowik.com/content/uploads/images/visual-studio-code7642.jpg",
+    "tags": "IDE",
+    "description": "VS Code (Visual Studio Code) is a powerful source-code editor developed by Microsoft, compatible with Windows, Linux, and macOS. Renowned for its speed, flexibility, and a vast array of extensions, VS Code supports a wide range of programming languages and development tasks. Features like IntelliSense, debugging, integrated Git control, and customizable themes enhance productivity and streamline the coding experience. Whether you're a seasoned developer or just starting, VS Code's intuitive interface and extensive functionality make it an essential tool for coding and development."
+  }
+]
