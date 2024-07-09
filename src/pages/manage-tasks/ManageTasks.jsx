@@ -77,6 +77,8 @@ const ManageTasks = () => {
                         image: task.image,
                         title: task.title,
                         desc: task.description,
+                        assignedTo: task.assignedTo,
+                        status: task.status
                       }}
                     >
                       <div className="flex items-center gap-1 cursor-pointer text-blue-500">
