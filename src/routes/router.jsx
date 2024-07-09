@@ -5,6 +5,7 @@ import Home from "../pages/home/Home";
 import Login from "../pages/login/Login";
 import Profile from "../pages/profile/Profile";
 import UpdateProfile from "../pages/updateProfile/UpdateProfile";
+import PrivateRoute from "./privet/PrivateRoute";
 
 const router = createBrowserRouter([
   {
@@ -21,12 +22,24 @@ const router = createBrowserRouter([
         element: <Login />,
       },
       {
+        path: "/register",
+        element: <Login />,
+      },
+      {
         path: "/profile",
-        element: <Profile />,
+        element: (
+          <PrivateRoute>
+            <Profile />,
+          </PrivateRoute>
+        ),
       },
       {
         path: "/update-profile",
-        element: <UpdateProfile />,
+        element: (
+          <PrivateRoute>
+            <UpdateProfile />,
+          </PrivateRoute>
+        ),
       },
     ],
   },
