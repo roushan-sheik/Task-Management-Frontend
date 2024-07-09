@@ -11,7 +11,7 @@ import { IoMdEye, IoMdEyeOff } from "react-icons/io";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import useUserContext from "../../hooks/useUserContext";
-import Inp from "../../input/Inp";
+
 import Btn from "../button/Btn";
 import LogInButton from "../button/LogInButton";
 
