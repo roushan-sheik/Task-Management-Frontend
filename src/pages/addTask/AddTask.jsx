@@ -1,8 +1,7 @@
-import { Input, Textarea } from "@material-tailwind/react";
+import { Textarea } from "@material-tailwind/react";
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { useNavigate } from "react-router-dom";
-import { TagsInput } from "react-tag-input-component";
 import { toast, ToastContainer } from "react-toastify";
 import { imageUpload } from "../../api/utils";
 import Btn from "../../components/button/Btn";
@@ -16,7 +15,6 @@ const AddTask = () => {
   const { user } = useUserContext();
 
   const [task, setTask] = React.useState({
-    name: "",
     title: "",
     description: "",
   });
@@ -24,8 +22,6 @@ const AddTask = () => {
     setTask({ ...task, [e.target.name]: e.target.value });
   }
   const route = "/dashboard/my-products";
-
-  const currentDate = new Date().toLocaleDateString();
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -36,26 +32,15 @@ const AddTask = () => {
     try {
       const imageUrl = await imageUpload(imagFile);
       const productObj = {
-        user_name: user?.displayName,
-        user_email: user?.email,
-        profile_image: user?.photoURL,
-        name: product?.name,
-        title: product?.title,
+        title: task?.title,
         image: imageUrl,
-        status: "Pending",
-        vote: {
-          users: [],
-          upVote: 0,
-          downVote: 0,
-        },
-        tags: selected,
-        featured: false,
-        description: product?.description,
-        createdAt: currentDate,
+        description: task?.description,
+        status: "To-Do",
+        assignedTo: [],
       };
       console.log(productObj);
-      await axiosCommon.post("/product/post", productObj);
-      toast.success("Product added", {
+      await axiosCommon.post("/task", productObj);
+      toast.success("Task added", {
         position: "top-right",
         autoClose: 1000,
       });
@@ -69,8 +54,7 @@ const AddTask = () => {
       });
     }
 
-    setProduct({
-      name: "",
+    setTask({
       title: "",
       description: "",
     });
@@ -81,10 +65,10 @@ const AddTask = () => {
     <div>
       <div className="flex flex-col justify-center items-center">
         <Helmet>
-          <title>BitCraft | Add Product</title>
+          <title>BitCraft | Add Task</title>
         </Helmet>
         <h2 className=" text_pri lg:text-3xl text-2xl lg:my-10 my-4 font-bold text-center">
-          Add Product
+          Add Task
         </h2>
         <ToastContainer />
         <form
@@ -93,51 +77,19 @@ const AddTask = () => {
           action="#"
         >
           {/* inputs  */}
-          <h1 className="mb-2 font-semibold">Your Name</h1>
-          <Input
-            disabled
-            type="text"
-            label={"Your Name"}
-            value={user?.displayName}
-            placeholder={"Your Name"}
-          />
-          <h1 className="mb-2 font-semibold">Your Email</h1>
-          <Input
-            disabled
-            type="text"
-            label={"Your Email"}
-            value={user?.email}
-            placeholder={"Your Email"}
-          />
-          <h1 className="mb-2 font-semibold">Your Photo</h1>
-          <Input
-            disabled
-            type="file"
-            placeholder="Your Photo"
-            name="your image"
-          />
-          <Inp
-            type="text"
-            name={"name"}
-            required={true}
-            label={"Product Name"}
-            value={product.name}
-            placeholder={"product name"}
-            onChange={handleChange}
-          />
           <Inp
             type="text"
             name={"title"}
             required={true}
             label={"Product Title"}
-            value={product.title}
+            value={task.title}
             placeholder={"product title"}
             onChange={handleChange}
           />
           {/* ===================== image upload start =================================> */}
           <div>
             <label htmlFor="image" className="block mb-2 text-base font-medium">
-              Upload Product Image:
+              Upload Task Image:
             </label>
             <Inp type="file" id="image" name="image" accept="image/*" />
           </div>
@@ -147,26 +99,12 @@ const AddTask = () => {
           </label>
           <Textarea
             id="long_description"
-            value={product.description}
+            value={task.description}
             placeholder="long desc..."
             onChange={handleChange}
             name="description"
           />
-          {/* =================== tags start ========================= */}
-          {/* =================== tags start ========================= */}
-          <div className=" mb-4 ">
-            <h1 className="mb-2 font-semibold">Add Tags</h1>
-            <TagsInput
-              value={selected}
-              onChange={setSelected}
-              name="fruits"
-              placeHolder="enter tags..."
-            />
-            <em className="text_brand_pri">
-              press enter or comma to add new tag
-            </em>
-          </div>
-          {/* =================== tags start ========================= */}
+
           {/* submit button  */}
           <Btn className={"mb-10"} type={"submit"} color="blue">
             {" "}

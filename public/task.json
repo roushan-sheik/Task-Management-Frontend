@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Design Web app",
+    "image": "design.jpg",
+    "description": "Create the initial design for the homepage",
+    "assignedTo": ["arifa@gmail.com", "user2"],
+    "status": "To-Do"
+  },
+  {
+    "title": "Design Web app",
+    "image": "design.jpg",
+    "description": "Create the initial design for the homepage",
+    "assignedTo": ["arifa@gmail.com", "user2"],
+    "status": "To-Do"
+  },
+  {
+    "title": "Design Web app",
+    "image": "design.jpg",
+    "description": "Create the initial design for the homepage",
+    "assignedTo": ["arifa@gmail.com", "user2"],
+    "status": "To-Do"
+  }
+]
