@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 const DesktopNav = () => {
   return (
     <div className="flex items-center gap-7">
-      {" "}
       <NavLink
         to="/"
         className={({ isActive, isPending, isTransitioning }) =>
@@ -17,7 +16,7 @@ const DesktopNav = () => {
         Home
       </NavLink>
       <NavLink
-        to="/tasks"
+        to="/my-tasks"
         className={({ isActive, isPending, isTransitioning }) =>
           [
             isPending ? "pending" : "",
@@ -26,19 +25,7 @@ const DesktopNav = () => {
           ].join(" ")
         }
       >
-        Tasks
-      </NavLink>
-      <NavLink
-        to="/add-task"
-        className={({ isActive, isPending, isTransitioning }) =>
-          [
-            isPending ? "pending" : "",
-            isActive ? "text_brand_sec font-bold" : "",
-            isTransitioning ? "transitioning" : "",
-          ].join(" ")
-        }
-      >
-        Add Task
+        My Tasks
       </NavLink>
     </div>
   );
