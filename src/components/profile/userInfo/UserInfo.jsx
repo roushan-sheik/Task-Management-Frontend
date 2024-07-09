@@ -1,6 +1,6 @@
 import React from "react";
+import { CgProfile } from "react-icons/cg";
 import { FaUserEdit } from "react-icons/fa";
-import { RxDashboard } from "react-icons/rx";
 import { Link } from "react-router-dom";
 import useUserContext from "../../../hooks/useUserContext";
 import Btn from "../../button/Btn";
@@ -18,15 +18,13 @@ const UserInfo = () => {
       </p>
 
       {/* My profile   */}
-      <Link to={"/dashboard"}>
+      <Link to={"/profile"}>
         <p className=" bg-blue-gray-100 flex items-center gap-1 p-2 rounded-md lg:text-lg text-base cursor-pointer font-medium mb-2 mt-5 hover:text-[#fd6b22]">
-          <RxDashboard />
-          {/* <AiFillDashboard /> */}
-
-          <span>Dashboard</span>
+          <CgProfile />
+          <span>Profile</span>
         </p>
       </Link>
-      <Link to={"/dashboard/update-profile"}>
+      <Link to={"/update-profile"}>
         <p className=" bg-blue-gray-100 flex items-center gap-1 p-2 rounded-md lg:text-lg text-base cursor-pointer font-medium mb-2 mt-5 hover:text-[#fd6b22]">
           <FaUserEdit />
 

@@ -3,7 +3,6 @@ import { MdOutlineCancelPresentation } from "react-icons/md";
 import { Link } from "react-router-dom";
 import useUserContext from "../../../hooks/useUserContext";
 import Btn from "../../button/Btn";
-import LoginModal from "../../modal/LoginModal";
 import DesktopNav from "../../nav/desktop/DesktopNav";
 import Badge from "../../profile/badge/Badge";
 import UserInfo from "../../profile/userInfo/UserInfo";
@@ -34,11 +33,11 @@ const Header = () => {
             <Badge image={user.photoURL} />
           </div>
         ) : (
-          <Btn onClick={() => setShowForm(true)}>Login</Btn>
+          <Link to={"/login"}>
+            <Btn>Login</Btn>
+          </Link>
         )}
-        {showForm && !user && (
-          <LoginModal isOpen={showForm} closeModal={() => setShowForm(false)} />
-        )}
+
         {showInfo && user && (
           <div className="z-50 bg-white absolute top-[70px] w-[250px] right-[5px] p-4 rounded-md">
             {/* cancel icon box  */}
