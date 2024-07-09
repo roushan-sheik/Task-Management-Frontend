@@ -27,7 +27,6 @@ const UserInfo = () => {
       <Link to={"/update-profile"}>
         <p className=" bg-blue-gray-100 flex items-center gap-1 p-2 rounded-md lg:text-lg text-base cursor-pointer font-medium mb-2 mt-5 hover:text-[#fd6b22]">
           <FaUserEdit />
-
           {/* <AiFillDashboard /> */}
           <span>Update Profile</span>
         </p>
