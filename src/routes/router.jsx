@@ -10,9 +10,11 @@ import ManageUsers from "../pages/manage-users/ManageUsers";
 import MyTasks from "../pages/mytasks/MyTasks";
 import Profile from "../pages/profile/Profile";
 import Register from "../pages/register/Register";
+import TaskDetails from "../pages/task-details/TaskDetails";
 import UpdateProfile from "../pages/updateProfile/UpdateProfile";
 import DashboardHome from "./../components/dashboardHome/DashboardHome";
 import PrivateRoute from "./privet/PrivateRoute";
+import EditTask from "../pages/edit-task/EditTask";
 
 const router = createBrowserRouter([
   {
@@ -84,6 +86,14 @@ const router = createBrowserRouter([
       {
         path: "manage-users",
         element: <ManageUsers />,
+      },
+      {
+        path: "tasks/details",
+        element: <TaskDetails />,
+      },
+      {
+        path: "edit/task",
+        element: <EditTask />,
       },
     ],
   },

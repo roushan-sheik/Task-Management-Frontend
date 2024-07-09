@@ -21,7 +21,7 @@ const AddTask = () => {
   function handleChange(e) {
     setTask({ ...task, [e.target.name]: e.target.value });
   }
-  const route = "/dashboard/my-products";
+  const route = "/dashboard/manage-tasks";
 
   async function handleSubmit(e) {
     e.preventDefault();
