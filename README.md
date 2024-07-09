@@ -17,11 +17,11 @@ npm run dev
 
 ### Deployed Firebase
 
-#### Live link:
+#### Live link: https://task-management-faf4c.web.app/
 
-#### Client repo:
+#### Client repo: https://github.com/roushan-sheik/Task-Management-Frontend
 
-#### Server repo:
+#### Server repo:https://github.com/roushan-sheik/Task-Management-Backend
 
 <p> Task management
 </p>
@@ -31,7 +31,6 @@ npm run dev
 - React
 - Tailwind
 - Express Js
-- JWT Json Web Token
 - MongoDB
 - Material Tailwind (component library)
 - React router dom
