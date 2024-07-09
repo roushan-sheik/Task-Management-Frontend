@@ -1,6 +1,7 @@
-import toast from "react-hot-toast";
+ 
 import { TbFidgetSpinner } from "react-icons/tb";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { toast, ToastContainer } from "react-toastify";
 import { imageUpload } from "../../api/utils";
 import Btn from "../../components/button/Btn";
 import LogInButton from "../../components/button/LogInButton";
@@ -12,12 +13,8 @@ const Register = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const axiosCommon = useAxiosCommon();
-  const {
-    createUser,
-    updateUserProfile,
-    loading,
-    setLoading,
-  } = useUserContext();
+  const { createUser, updateUserProfile, loading, setLoading } =
+    useUserContext();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -48,11 +45,15 @@ const Register = () => {
       await updateUserProfile(name, image_url);
       setLoading(false);
       navigate(location?.state || "/");
-      toast.success("register Successful");
+      toast.success("Registration Successfully", {
+        position: "top-center",
+      });
     } catch (err) {
       setLoading(false);
       console.log(err);
-      toast.error(err.message);
+      toast.error(err.message, {
+        position: "top-center",
+      });
     }
   };
 
@@ -60,6 +61,7 @@ const Register = () => {
     <div className="flex  justify-center items-center mt-6 min-h-screen">
       <div className="flex flex-col max-w-md p-4 w-[90%]  rounded-md sm:p-10 border-2  text-gray-900">
         <div className="mb-6 text-center">
+          <ToastContainer />
           <h1 className="my-2 text-4xl font-bold">Register</h1>
         </div>
         <form onSubmit={handleSubmit} className="space-y-6">

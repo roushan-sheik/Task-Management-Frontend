@@ -19,9 +19,14 @@ h1 h2 h3 h4 {
   margin-right: auto;
 }
 .bg_pri {
-  /* Your custom styles here */
-  background-color: #00e55f;
-  /* background-color: #00a4e5ce; */
+  background-color: hsla(240, 51%, 7%, 0.64);
+  background-image: radial-gradient(
+      at 92% 29%,
+      hsla(195, 78%, 12%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 16% 8%, hsla(210, 35%, 9%, 0.64) 0px, transparent 50%),
+    radial-gradient(at 86% 94%, hsla(189, 55%, 29%, 0.28) 0px, transparent 50%);
 }
 .bg_sec {
   /* Your custom styles here */
