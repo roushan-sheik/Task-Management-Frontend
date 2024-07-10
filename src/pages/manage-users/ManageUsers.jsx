@@ -3,6 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 import React from "react";
 import { FaUser } from "react-icons/fa";
 import { MdAdminPanelSettings } from "react-icons/md";
+import { toast, ToastContainer } from "react-toastify";
 import MySpinner from "../../components/loadingSpinner/Spinner";
 import NoDataFound from "../../components/not-found/NoDataFound";
 import useAxiosCommon from "../../hooks/useAxiosCommon";
@@ -27,8 +28,21 @@ const ManageUsers = () => {
     return <NoDataFound title={"You Don't have any  tasks "} />;
   }
   // handleRoleChange
-  function handleRoleChange(role) {
-    alert(role);
+  async function handleRoleChange(role, id) {
+    try {
+      await axiosCommon.put(`update/user/role/${id}`, { role });
+      refetch();
+      toast.success(`${role} Successful`, {
+        position: "top-right",
+        autoClose: 1000,
+      });
+    } catch (error) {
+      console.log(error);
+      toast.success(error.message, {
+        position: "top-right",
+        autoClose: 1000,
+      });
+    }
   }
 
   // console.log(users);
@@ -41,6 +55,7 @@ const ManageUsers = () => {
           <span></span>
         </div>
       </div>
+      <ToastContainer />
       {/* header end  */}
       <div className="flex flex-col gap-6 shadow-lg p-4 ">
         {users?.map((user) => {
@@ -77,7 +92,8 @@ const ManageUsers = () => {
                 <Button
                   onClick={() =>
                     handleRoleChange(
-                      `${user.role === "Admin" ? "User" : "Admin"}`
+                      `${user.role === "Admin" ? "User" : "Admin"}`,
+                      user.email
                     )
                   }
                   className={`${
