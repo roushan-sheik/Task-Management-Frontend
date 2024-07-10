@@ -81,7 +81,7 @@ const AddTask = () => {
             type="text"
             name={"title"}
             required={true}
-            label={"Product Title"}
+            label={"Task Title"}
             value={task.title}
             placeholder={"product title"}
             onChange={handleChange}

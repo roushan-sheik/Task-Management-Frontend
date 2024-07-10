@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import useUserContext from "./useUserContext";
 
 export const axiosSecure = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,
+  baseURL: "https://task-management-backend-eta-flame.vercel.app",
   withCredentials: true,
 });
 const useAxiosSecure = () => {

@@ -1,10 +1,10 @@
-import axios from 'axios'
+import axios from "axios";
 
 export const axiosCommon = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,
-})
+  baseURL: "https://task-management-backend-eta-flame.vercel.app",
+});
 const useAxiosCommon = () => {
-  return axiosCommon
-}
+  return axiosCommon;
+};
 
-export default useAxiosCommon
+export default useAxiosCommon;

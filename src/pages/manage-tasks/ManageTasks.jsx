@@ -21,11 +21,11 @@ const ManageTasks = () => {
       return data;
     },
   });
- 
+
   if (isLoading) return <MySpinner />;
 
   if (tasks?.length === 0) {
-    return <NoDataFound title={"You Don't have any  product "} />;
+    return <NoDataFound title={"You Don't have any  tasks "} />;
   }
   // handleTaskDelete
   async function handleTaskDelete(id) {
