@@ -26,6 +26,11 @@ const ManageUsers = () => {
   if (users?.length === 0) {
     return <NoDataFound title={"You Don't have any  tasks "} />;
   }
+  // handleRoleChange
+  function handleRoleChange(role) {
+    alert(role);
+  }
+
   // console.log(users);
   return (
     <div className="lg:mx-12">
@@ -70,10 +75,25 @@ const ManageUsers = () => {
               {/* button box  */}
               <div>
                 <Button
+                  onClick={() =>
+                    handleRoleChange(
+                      `${user.role === "Admin" ? "User" : "Admin"}`
+                    )
+                  }
                   className={`${
                     user.role === "Admin" ? "bg_sec" : "bg-blue-500"
-                  }`}
+                  } flex items-center gap-1`}
                 >
+                  {user.role === "Admin" ? (
+                    <span className="text-xl">
+                      <FaUser />
+                    </span>
+                  ) : (
+                    <span className="text-2xl">
+                      <MdAdminPanelSettings />
+                    </span>
+                  )}
+
                   {user.role === "Admin" ? "Make User" : "Make Admin"}
                 </Button>
               </div>
