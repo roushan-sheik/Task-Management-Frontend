@@ -49,15 +49,15 @@ const ManageUsers = () => {
   return (
     <div className="lg:mx-12">
       <div className="flex items-center my-4 gap-1">
-        <h1 className="lg:text-4xl font-semibold text-2xl">Manage Users</h1>
+        <h1 className="lg:text-4xl font-semibold text-2xl">Total Users</h1>
         <div className=" flex justify-center items-center text-white text-2xl bg-blue-500 h-12 w-12 rounded-full">
           {users.length}
           <span></span>
         </div>
+        <ToastContainer />
       </div>
-      <ToastContainer />
       {/* header end  */}
-      <div className="flex flex-col gap-6 shadow-lg p-4 ">
+      <div className="flex flex-col gap-6 shadow-lg p-4  ">
         {users?.map((user) => {
           return (
             <div className="flex  gap-2 justify-between" key={user._id}>

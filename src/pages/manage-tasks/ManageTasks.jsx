@@ -55,10 +55,10 @@ const ManageTasks = () => {
         </div>
         <ToastContainer />
       </div>
-      <div className="flex flex-col gap-2 ">
+      <div className="flex flex-col gap-2 px-4 ">
         {tasks?.map((task) => {
           return (
-            <div className="shadow-md py-2" key={task._id}>
+            <div className="shadow-md py-2 pr-2" key={task._id}>
               <div className="flex justify-between gap-4">
                 <dir className=" basis-[30%]">
                   <img

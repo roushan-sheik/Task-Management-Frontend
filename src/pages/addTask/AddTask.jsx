@@ -30,10 +30,13 @@ const AddTask = () => {
 
     // upload image
     try {
-      const imageUrl = await imageUpload(imagFile);
+      let imageUrl;
+      if (imagFile) {
+        imageUrl = await imageUpload(imagFile);
+      }
       const productObj = {
         title: task?.title,
-        image: imageUrl,
+        image: imageUrl || "",
         description: task?.description,
         status: "To-Do",
         assignedTo: [],
