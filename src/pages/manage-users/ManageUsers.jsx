@@ -1,3 +1,4 @@
+import { Button } from "@material-tailwind/react";
 import { useQuery } from "@tanstack/react-query";
 import React from "react";
 import { FaUser } from "react-icons/fa";
@@ -27,7 +28,7 @@ const ManageUsers = () => {
   }
   // console.log(users);
   return (
-    <div>
+    <div className="lg:mx-12">
       <div className="flex items-center my-4 gap-1">
         <h1 className="lg:text-4xl font-semibold text-2xl">Manage Users</h1>
         <div className=" flex justify-center items-center text-white text-2xl bg-blue-500 h-12 w-12 rounded-full">
@@ -39,30 +40,42 @@ const ManageUsers = () => {
       <div className="flex flex-col gap-6 shadow-lg p-4 ">
         {users?.map((user) => {
           return (
-            <div className="flex  gap-2" key={user._id}>
-              <div className="w-[70px] h-[70px]">
-                <img
-                  className="w-full h-full rounded-md"
-                  src={user.photo}
-                  alt="User"
-                />
-              </div>
-              <div>
-                <div className="flex gap-1">
-                  <h2 className="font-medium">{user?.name}</h2>
-                  {user.role === "Admin" ? (
-                    <span className="text-blue-500 text-2xl">
-                      <MdAdminPanelSettings />
-                    </span>
-                  ) : (
-                    <span className="text-blue-500 text-1xl">
-                      <FaUser />
-                    </span>
-                  )}
+            <div className="flex  gap-2 justify-between" key={user._id}>
+              <div className="flex  gap-2">
+                <div className="w-[70px] h-[70px]">
+                  <img
+                    className="w-full h-full rounded-md"
+                    src={user.photo}
+                    alt="User"
+                  />
                 </div>
                 <div>
-                  <h2>{user?.email}</h2>
+                  <div className="flex gap-1">
+                    <h2 className="font-medium">{user?.name}</h2>
+                    {user.role === "Admin" ? (
+                      <span className="text-blue-500 text-2xl">
+                        <MdAdminPanelSettings />
+                      </span>
+                    ) : (
+                      <span className="text-blue-500 text-1xl">
+                        <FaUser />
+                      </span>
+                    )}
+                  </div>
+                  <div>
+                    <h2>{user?.email}</h2>
+                  </div>
                 </div>
+              </div>
+              {/* button box  */}
+              <div>
+                <Button
+                  className={`${
+                    user.role === "Admin" ? "bg_sec" : "bg-blue-500"
+                  }`}
+                >
+                  {user.role === "Admin" ? "Make User" : "Make Admin"}
+                </Button>
               </div>
             </div>
           );
